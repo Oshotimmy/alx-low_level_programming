@@ -13,7 +13,7 @@ char *_Strcat(char *dest, char *src)
 {
 	int index = 0, dest_len = 0;
 	
-	while (desk[index++])
+	while (dest[index++])
 		dest_len++;
 
 	for (index = 0; src[index]; index++)
