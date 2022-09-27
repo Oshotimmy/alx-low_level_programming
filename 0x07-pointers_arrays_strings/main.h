@@ -2,9 +2,9 @@
 #define MAIN_H
 
 /**
- * void prototypes()
- * int prototypes()
- */
+* void prototypes()
+* int prototypes()
+*/
 
 int _putchar(char);
 char *_memset(char *s, char b, unsigned int n);
@@ -18,4 +18,3 @@ void print_diagsums(int *a, int size);
 void set_string(char **s, char *to);
 
 #endif /*MAIN_H*/
-
